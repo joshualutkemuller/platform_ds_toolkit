@@ -1,0 +1,13 @@
+
+[project]
+name = "platform-ds-toolkit"
+version = "1.0.0"
+description = "Platform-grade reusable Python toolkit for data science, automation, features, and artifacts"
+requires-python = ">=3.9"
+dependencies = ["pandas", "cryptography", "joblib"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
